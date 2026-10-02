@@ -4,16 +4,209 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Praktikum SIDJA | Aziz Yusuf Permana</title>
+  <title></title>
 </head>
 
 <body>
-  <h3>MENU PRAKTIKUM</h3>
-<br>Praktikum 1 klik <a href="praktikum1.html">disini</a>
-<br>Praktikum 2 klik <a href="praktikum2.html">disini</a>
-<br>Praktikum 3 klik <a href="praktikum3.html">disini</a>
-<br>Praktikum 4 klik <a href="praktikum4.html">disini</a>
-<br>Praktikum 5 klik <a href="praktikum5.html">disini</a>
+  
 </body>
 
+</html>
+<!DOCTYPE html>
+<html<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Cafe Kopi</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #292929;
+
+            /* Background geometris */
+            background-color: #e8ebee;
+            background-image:
+                conic-gradient(
+                    from 45deg,
+                    #f7f9fa 0deg 90deg,
+                    #dce0e3 90deg 180deg,
+                    #eef0f2 180deg 270deg,
+                    #e2e6e9 270deg
+                );
+            background-size: 220px 220px;
+        }
+
+        /* Logo cafe */
+        header {
+            text-align: center;
+            padding: 35px 15px 20px;
+        }
+
+        .logo {
+            font-size: 180px;
+            line-height: 1.2;
+            color: #087dbd;
+        }
+
+        nav {
+            margin-top: 20px;
+            font-size: 23px;
+        }
+
+        nav a {
+            color: #512477;
+            text-decoration: underline;
+        }
+
+        /* Isi halaman */
+        main {
+            padding: 20px 5%;
+        }
+
+        .welcome {
+            text-align: center;
+            font-size: 48px;
+            font-weight: normal;
+            line-height: 1.7;
+            margin: 30px 0;
+        }
+
+        .slogan {
+            text-align: center;
+            font-size: 24px;
+            font-style: italic;
+            line-height: 1.8;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #999;
+            margin: 25px 0;
+        }
+
+        .deskripsi {
+            font-size: 24px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        mark {
+            background-color: yellow;
+            color: black;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: normal;
+            margin-top: 35px;
+        }
+
+        ul {
+            font-size: 24px;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            color: #777;
+            font-size: 18px;
+            padding: 30px 10px 40px;
+        }
+
+        /* Tampilan HP */
+        @media (max-width: 400px) {
+            .logo {
+                font-size: 150px;
+            }
+
+            .welcome {
+                font-size: 38px;
+            }
+
+            .slogan {
+                font-size: 21px;
+            }
+
+            .deskripsi,
+            ul {
+                font-size: 21px;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+
+            nav {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">☕</div>
+
+        <nav>
+            <a href="index.html">Beranda</a>
+            |
+            <a href="jadwal.html">Jadwal Operasional</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="welcome">
+            Selamat Datang di Kopi Kampus
+        </h1>
+
+        <p class="slogan">
+            "Tempat terbaik untuk tugas, diskusi,
+            dan menjemput inspirasi."
+        </p>
+
+        <hr>
+
+        <p class="deskripsi">
+            Cafe Kopi didirikan sejak tahun 2026 untuk
+            mendukung produktivitas Programer dalam
+            menyelesaikan tugas coding. Kami berkomitmen
+            menyajikan racikan kopi berkualitas namun
+            tetap dengan <mark>harga yang sangat terjangkau</mark>
+            bagi kantong programer profesional.
+        </p>
+
+        <h2 id="menu">Menu Favorit Kami</h2>
+
+        <ul>
+            <li>Minuman
+                <ul>
+                    <li>Kopi Susu Aren</li>
+                    <li>Green Tea Latte</li>
+                </ul>
+            </li>
+
+            <li>Makanan
+                <ul>
+                    <li>Roti Bakar Cokelat</li>
+                    <li>Kentang Goreng</li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        Aziz Yusuf Permana @2026
+    </footer>
+
+</body>
 </html>

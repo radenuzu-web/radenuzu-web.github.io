@@ -1,41 +1,195 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aziz Yusuf Permana</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aziz Yusuf Permana</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0c3fc, #c2a0e8, #f5e6ff);
+    color: #493267;
+}
+
+        nav {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+
+        nav a {
+            color: #80694c;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 5px;
+        }
+
+        .biodata {
+            max-width: 550px;
+            margin: 35px auto;
+            padding: 30px 25px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(100, 80, 50, 0.13);
+            border-top: 6px solid #b69b78;
+        }
+
+        .biodata h2 {
+            text-align: center;
+            color: #80694c;
+            font-size: 26px;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+        }
+
+        .foto {
+            width: 155px;
+            height: 155px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            border: 5px solid #d8c6a0;
+            box-shadow: 0 5px 15px rgba(100, 80, 50, 0.15);
+        }
+
+        .isi-biodata h3 {
+            color: #80694c;
+            font-size: 18px;
+            margin-top: 28px;
+            padding: 12px;
+            background: #f4eee5;
+            border-left: 5px solid #b69b78;
+            border-radius: 8px;
+        }
+
+        .isi-biodata p {
+            padding: 12px;
+            margin: 8px 0;
+            background: #faf8f4;
+            border-radius: 9px;
+            border-bottom: 1px solid #eee5d8;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        .isi-biodata p b {
+            color: #80694c;
+        }
+
+        .isi-biodata p:hover {
+            background: #f1e9dc;
+            transition: 0.3s;
+        }
+
+        .praktikum {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .praktikum a {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #80694c;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        .praktikum a:hover {
+            background: #b69b78;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 12px;
+            }
+
+            .biodata {
+                padding: 22px 16px;
+            }
+
+            .biodata h2 {
+                font-size: 23px;
+            }
+
+            .isi-biodata p {
+                font-size: 13px;
+            }
+        }
+    </style>
 </head>
-<h2>Repository Praktikum</h2>
-<br>Menu Praktikum <a href="https://radenuzu-web.github.io/praktikum">
-  Kembali ke Website Praktikum
-  <!--Tab to edit-->
-</br>
-</a>
-<br>Biodata</br>
-<!--Tab to edit-->
-</br>
-<table>
-   <tr>
-    <td>Nama</td>
-    <td>:</td>
-    <td>Aziz Yusuf Permana</td>
-  </tr>
-  <tr>
-    <td>Kelas</td>
-    <td>:</td>
-    <td>XI TJKT 2</td>
-  </tr>
-  <tr>
-    <td>Tempat/tanggal lahir</td>
-    <td>:</td>
-    <td>Majalengka, 20 Juli 2010</td>
-  </tr>
-  <tr>
-    <td>Alamat</td>
-    <td>:</td>
-    <td>Desa lame Kec.Leuwimunding Kab.Majalengka</td>
-  </tr>
-</table>
+
+<body>
+
+    <nav>
+        <a href="/">HOME</a> |
+        <a href="#profil">PROFIL</a> |
+        <a href="#praktikum">PRAKTIKUM</a>
+    </nav>
+
+    <h2 style="text-align:center;">Repository Utama</h2>
+
+    <section class="biodata" id="profil">
+
+        <h2>BIODATA DIRI</h2>
+
+        <img
+            src="IMG-20260807-WA0018.jpg"
+            class="foto"
+            alt="Foto AZIZ YUSUF PERMANA  "
+        >
+
+        <div class="isi-biodata">
+
+            <h3>Data Pribadi</h3>
+
+            <p><b>Nama:</b> Aziz Yusuf Permana</p>
+
+            <p><b>Tempat, Tanggal Lahir:</b>
+            Majalengka, 20 Juli 2010</p>
+
+            <p><b>Agama:</b> Islam</p>
+
+            <p><b>Kelas:</b> XI TJKT 2</p>
+
+            <p><b>Alamat:</b>
+            Desa Lame, Kec. leuwimunding,
+            Kab. Majalengka</p>
+
+            <p><b>Hobi:</b> Maen game</p>
+
+            <h3>Riwayat Pendidikan</h3>
+
+            <p><b>SMK Negeri 1 Leuwimunding:</b>
+            2025-Sekarang</p>
+
+            <p><b>SMP Negeri 1 Leuwimunding:</b>
+            2022-2025</p>
+
+            <p><b>SD Negeri lame 2:</b>
+            2016-2022</p>
+
+        </div>
+
+        <br>
+
+        <div class="praktikum" id="praktikum">
+            <h2>Menu Praktikum</h2>
+
+            <a href="radenuzu-web.github.io/praktikum">
+                Kembali ke Website Praktikum.
+            </a>
+        </div>
+
+    </section>
 
 </body>
 </html>
